@@ -31,15 +31,6 @@ function NavigationBar() {
                         <Nav.Link as={Link} to="/menu" active={location.pathname === '/menu'} >Menu</Nav.Link>
                         <Nav.Link as={Link} to="/vendorspage" active={location.pathname === '/vendorspage'} >Vendors Page</Nav.Link>   
                     </Nav>
-                    <Form className="d-flex">
-                        <img
-                        alt="Profile picture"
-                        src="\images\Navbar profile pic.png"
-                        width="50"
-                        height="50"
-                        className="d-inline-block align-top"
-                        />{' '}
-                    </Form>
                 </Navbar.Collapse>
             </Container>
         </Navbar>
