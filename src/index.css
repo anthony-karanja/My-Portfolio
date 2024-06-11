@@ -3,7 +3,7 @@
 
 body {
   
-  background-color: rgb(73, 73, 73);
+  background-color: black;
 }
 
 #navigation-bar {
@@ -68,7 +68,33 @@ body {
   font-size: 44px;
   color: plum;
 }
+#hero img {
+  width: 800px;
+  height: 800px;
+  /* border-radius: 50%; */
+  object-fit: cover;
+  /* background-color: red; */
+}
 /* Styling for Project section  */
+#projectsSection {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  background-color: rgb(73, 73, 73);
+}
+#projectsSection h2 {
+  font-size: 44px;
+  padding-top: 44px;
+  text-align: center;
+  /* background-color: red; */
+}
+#projects {
+  display: flex;
+  justify-content: space-around;
+  /* font-size: 4px; */
+}
 .project1 {
-  /* background-color: aliceblue; */
+  background-color: aliceblue;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 12px;
 }
