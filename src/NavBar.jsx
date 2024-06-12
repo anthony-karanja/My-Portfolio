@@ -29,7 +29,7 @@ function NavigationBar() {
                         id="nav-links">
                         <Nav.Link as={Link} to="/landing" active={location.pathname === '/landing'} >Projects</Nav.Link>
                         <Nav.Link as={Link} to="/menu" active={location.pathname === '/menu'} >Menu</Nav.Link>
-                        <Nav.Link as={Link} to="/vendorspage" active={location.pathname === '/vendorspage'} >Vendors Page</Nav.Link>   
+                        <Nav.Link as={Link} to="/vendorspage" active={location.pathname === '/vendorspage'} >Resume</Nav.Link>   
                     </Nav>
                 </Navbar.Collapse>
             </Container>

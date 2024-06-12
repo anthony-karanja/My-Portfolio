@@ -8,7 +8,7 @@ function Projects() {
             <h2>My Projects</h2>
             <div id='projects'>
                 <Card style={{ width: '18rem' }} className='project1'>
-                    <Card.Img variant="top" src="/8.jpg" width='286px' height='180px' />
+                    <Card.Img variant="top" src="/Images/8.jpg" width='286px' height='180px' />
                     <Card.Body>
                         <Card.Title>Local Dish Corner</Card.Title>
                         <Card.Text>
@@ -19,7 +19,7 @@ function Projects() {
                     </Card.Body>
                 </Card>
                 <Card style={{ width: '18rem' }} className='project1'>
-                    <Card.Img variant="top" src="/8.jpg" width='286px' height='180px' />
+                    <Card.Img variant="top" src="/Images/8.jpg" width='286px' height='180px' />
                     <Card.Body>
                         <Card.Title>KeepTabs</Card.Title>
                         <Card.Text>
@@ -30,7 +30,7 @@ function Projects() {
                     </Card.Body>
                 </Card>
                 <Card style={{ width: '18rem' }} className='project1'>
-                    <Card.Img variant="top" src="/8.jpg" width='286px' height='180px' />
+                    <Card.Img variant="top" src="/Images/8.jpg" width='286px' height='180px' />
                     <Card.Body>
                         <Card.Title>Gen-Z Dictionary</Card.Title>
                         <Card.Text>

@@ -65,12 +65,12 @@ body {
   display: flex;
   font-family: "Barlow", sans-serif;
   font-weight: 600;
-  font-size: 44px;
+  font-size: 40px;
   color: plum;
 }
 #hero img {
-  width: 800px;
-  height: 800px;
+  width: 700px;
+  height: 700px;
   /* border-radius: 50%; */
   object-fit: cover;
   /* background-color: red; */
@@ -79,7 +79,7 @@ body {
 #projectsSection {
   font-family: "Barlow", sans-serif;
   font-weight: 400;
-  background-color: rgb(73, 73, 73);
+  background-color: rgb(37, 37, 37);
 }
 #projectsSection h2 {
   font-size: 44px;
