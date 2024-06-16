@@ -7,7 +7,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function NavBar() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary" style={{ backgroundColor: 'blue' }} > 
+    <Navbar expand="lg" bg="dark" data-bs-theme="dark" > 
       <Container fluid>
         <Navbar.Brand href="#">
             <img src="/Wangui Logo.png" alt="" />
@@ -21,7 +21,7 @@ function NavBar() {
           >
             <Nav.Link href="#action1">About me</Nav.Link>
             <Nav.Link href="#action2">Projects</Nav.Link>
-            <Nav.Link href="#" disabled>Resume</Nav.Link>
+            <Nav.Link href="#">Resume</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

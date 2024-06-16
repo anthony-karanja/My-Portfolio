@@ -5,43 +5,21 @@ body {
   background-color: rgb(1, 1, 22);
 }
 /* Styling for Navbar */
-.bg-body-tertiary {
-  background-color: rgb(162, 162, 243);
+.bg {
+  background-color: rgb(1, 1, 22);
 }
 #navbar {
   background-color: black;
 }
-/* #nav-links {
-  display: flex;
-  justify-content: space-around;
-  margin-left: 150px;
-  gap: 32px; 
-} */
 .me-auto{
-  background-color: red;
+  /* background-color: red; */
   display: flex;
   gap: 56px;
-  margin-left: 150px;
+  margin-left: 160px;
 }
-
-.menu:hover {
-  color: #FDC55E;
-  scale: 1.2;
-}
-.vendors:hover {
-  color: #FDC55E;
-  scale: 1.2;
-}
-#navbarScrollingDropdown:hover {
-  color: #FDC55E;
-  scale: 1.2;
-}
-.contactUs:hover {
-  color: #FDC55E;
-  scale: 1.2;
-}
-#navbarScroll:hover {
-  color: #FDC55E;
+#navbarScroll {
+  font-size: 20px;
+  font-family: "Barlow", sans-serif;
 }
 
 /* Responsiveness for the Container that comes with the Navbar */
@@ -69,32 +47,37 @@ body {
   margin-top: 80px;
 }
 .circle {
-  width: 700px;
-  height: 700px;
+  width: 600px;
+  height: 600px;
   border: 1px solid gray;
+  border-left: transparent;
   border-radius: 50%;
   position: absolute;
   top: 100px;
-  right: 20px;
+  right: 80px;
   z-index: -1;
 }
-.icon {
-  /* position: absolute; */
+/* .icons {
+  position: absolute;
   background-color: aqua;
+} */
+.dribble {
+  position: absolute;
+  top: 160px;
+  right: 120px;
 }
-
-
-
 /* Styling for Project section  */
 #projectsSection {
   font-family: "Barlow", sans-serif;
   font-weight: 400;
-  background-color: rgb(37, 37, 37);
+  background-color: rgb(9, 9, 20);
+  /* background-color: rgb(37, 37, 37); */
 }
 #projectsSection h2 {
   font-size: 44px;
   padding-top: 44px;
   text-align: center;
+  color: beige;
   /* background-color: red; */
 }
 #projects {
@@ -103,7 +86,8 @@ body {
   /* font-size: 4px; */
 }
 .project1 {
-  background-color: aliceblue;
+  background-color: rgb(13, 13, 14);
+  color: grey;
   margin: 20px;
   padding: 20px;
   border-radius: 12px;
