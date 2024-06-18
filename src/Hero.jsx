@@ -20,6 +20,7 @@ function Hero() {
             <span className='circle'></span>
             <span className='circle1'></span>
             <span className='circle2'></span>
+            
           </div>
         </div>
         <div className='icons'>

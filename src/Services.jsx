@@ -10,7 +10,14 @@ function Services() {
           <Card.Body>
             <Card.Title>Front-End Developer</Card.Title>
               <Card.Text>
-                React
+                <ul>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>React</li>
+                  <li>Bootstrap</li>
+                  <li>Tailwind</li>
+                </ul>
               </Card.Text>
           </Card.Body>
         </Card>
@@ -18,7 +25,14 @@ function Services() {
           <Card.Body>
             <Card.Title>UI/UX Designer</Card.Title>
               <Card.Text>
-                React
+                <ul>
+                  <li>Landing Page</li>
+                  <li>Prototyping</li>
+                  <li>Userflow</li>
+                  <li>Wireframe</li>
+                  <li>Mobile app design</li>
+                  <li>Usability Testing</li>
+                </ul>
               </Card.Text>
           </Card.Body>
         </Card>

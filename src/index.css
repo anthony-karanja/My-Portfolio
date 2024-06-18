@@ -103,27 +103,27 @@ body {
 } */
 .behance {
   position: absolute;
-  top: 160px;
-  right: 160px;
-  z-index: 1;
+  top: 230px;
+  right: 270px;
+  z-index: 11;
 }
 .behance:hover {
-  /* background-color: aliceblue; */
   scale: 1.2;
+  
 }
 .dribble {
   position: absolute;
-  top: 260px;
-  right: 120px;
+  top: 340px;
+  right: 200px;
 }
 .github {
   position: absolute;
-  top: 360px;
-  right: 120px;
+  top: 460px;
+  right: 110px;
 }
 .linkedin {
   position: absolute;
-  top: 460px;
+  top: 580px;
   right: 120px;
 }
 /* Styling for Project section  */
