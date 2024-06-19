@@ -52,10 +52,17 @@ body {
 .underline {
   position: absolute;
   left: 280px;
-  
 }
 .tagline h4 {
   margin-top: 20px;
+}
+.heroButton {
+  margin: 60px 0px 0px 80px;
+}
+.curledArrow {
+  position: relative;
+  top: 88px;
+  right: 24px;
 }
 .circles {
   position: relative;
@@ -98,14 +105,14 @@ body {
 }
 /* Styling for the icons in the hero section */
 /* .icons {
-  position: absolute;
+  position: relative;
   background-color: red;
 } */
 .behance {
   position: absolute;
-  top: 230px;
-  right: 270px;
-  z-index: 11;
+  top: 236px;
+  right: 278px;
+  z-index: 2;
 }
 .behance:hover {
   scale: 1.2;
@@ -113,18 +120,21 @@ body {
 }
 .dribble {
   position: absolute;
-  top: 340px;
-  right: 200px;
+  top: 332px;
+  right: 152px;
+  z-index: 1;
 }
 .github {
   position: absolute;
   top: 460px;
   right: 110px;
+  z-index: 11;
 }
 .linkedin {
   position: absolute;
-  top: 580px;
-  right: 120px;
+  top: 599px;
+  right: 140px;
+  z-index: 11;
 }
 /* Styling for Project section  */
 #projectsSection {
@@ -151,4 +161,48 @@ body {
   margin: 20px;
   padding: 20px;
   border-radius: 12px;
+}
+/* Styling for Services section  */
+#services {
+  font-family: "Barlow", sans-serif;
+  background-color: rgb(16, 16, 22);
+  padding: 40px 0px;
+  /* background-color: #343a40; */
+}
+#services h2 {
+  font-family: "Barlow", sans-serif;
+  font-size: 44px;
+  padding-top: 44px;
+  text-align: center;
+  color: beige;
+}
+.codeIcon {
+  margin: 0px 0px 24px 0px;
+  position: relative;
+  left: 36%;
+}
+.designIcon {
+  margin: 0px 0px 24px 0px;
+  position: relative;
+  left: 36%;
+}
+/* Styling for footer section  */
+#footer {
+  font-family: "Barlow", sans-serif;
+  background-color: rgb(1, 1, 22);
+  padding: 40px 0px;
+}
+#footer h3 {
+  text-align: center;
+  color: beige;
+}
+.footerIcons {
+ gap: 8px;
+}
+
+/* Styling for Resume page */
+#resume {
+  font-family: "Barlow", sans-serif;
+  text-align: center;
+  color: beige;
 }
