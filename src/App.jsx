@@ -10,12 +10,12 @@ import Resume from './Resume';
 function App() {
   return (
     <>
-      {/* <NavBar />
+      <NavBar />
       <Hero />
       <Services />
       <Projects />
-      <Footer /> */}
-      <Resume />
+      <Footer />
+      {/* <Resume /> */}
     </>
   )
 }
