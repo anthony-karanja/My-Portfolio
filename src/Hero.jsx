@@ -19,7 +19,8 @@ function Hero() {
             </svg>
           </div>
           <div className='circles'>
-            <img src="/Images/Biggerprofile-copy.png" alt="My profile" />
+            <img src="/Images/DP-removebg-preview.png" alt="My profile" /> 
+            {/* <img src="/Images/Biggerprofile-copy.png" alt="My profile" /> */}
             <span className='circle'></span>
             <span className='circle1'>
               {/* <div className='icons'>

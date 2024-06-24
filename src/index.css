@@ -197,6 +197,8 @@ body {
   color: beige;
 }
 .footerIcons {
+  display: flex;
+  justify-content: center;
  gap: 8px;
 }
 

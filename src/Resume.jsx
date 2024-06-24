@@ -1,14 +1,22 @@
 import React from 'react'
 import { Document, Page } from 'react-pdf'
-import NavBar from './NavBar'
-import { Viewer } from '@react-pdf-viewer/core';
+import NavBar from './NavBar';
+import { PdfJs } from '@react-pdf-viewer/core';
+import { Viewer, Worker } from '@react-pdf-viewer/core';
+import '@react-pdf-viewer/core/lib/styles/index.css';
+// import ResumePdf from '../public/Resume-Wangui.pdf'
 // import pdf from 'public/Resume-Wangui.pdf'
 
 function Resume() {
+  const pdfFile = 'src/assets/Resume-Wangui.pdf';
   return (
     <>
+      <NavBar />
       <div>
-        <Viewer fileUrl="/Resume-Wangui.pdf" />
+        <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.min.js">
+        {/* <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.4.131/build/pdf.worker.min.js" /> */}
+        <Viewer fileUrl="pdfFile" />
+        </Worker>
       </div>
         {/* <div id='resume'>
             <NavBar />
