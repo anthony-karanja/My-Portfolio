@@ -12,7 +12,7 @@ function Projects() {
                     <Card.Body>
                         <Card.Title>Local Dish Corner</Card.Title>
                         <Card.Text>
-                        Marketing solution to increase visibility for local food vendors to their customers.
+                            Providing a marketing solution to increase visibility for local food vendors to their customers.
                         </Card.Text>
                         <Button variant="primary">Visit</Button>
                     </Card.Body>
@@ -32,7 +32,7 @@ function Projects() {
                     <Card.Body>
                         <Card.Title>Gen-Z Dictionary</Card.Title>
                         <Card.Text>
-                        Marketing solution to increase visibility for local food vendors to their customers.
+                            Marketing solution to increase visibility for local food vendors to their customers.
                         </Card.Text>
                         <Button variant="primary">Visit</Button>
                     </Card.Body>
