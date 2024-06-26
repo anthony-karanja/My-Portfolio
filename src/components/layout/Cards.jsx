@@ -1,7 +1,7 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
-function Projects() {
+function Cards() {
   return (
     <>
         <div id='projectsSection'>
@@ -22,7 +22,7 @@ function Projects() {
                     <Card.Body>
                         <Card.Title>KeepTabs</Card.Title>
                         <Card.Text>
-                            Marketing solution to increase visibility for local food vendors to their customers.
+                            An application that helps users track their time efficiently and improve their productivity.
                         </Card.Text>
                         <Button variant="primary">Visit</Button>
                     </Card.Body>
@@ -32,7 +32,7 @@ function Projects() {
                     <Card.Body>
                         <Card.Title>Gen-Z Dictionary</Card.Title>
                         <Card.Text>
-                            Marketing solution to increase visibility for local food vendors to their customers.
+                            An application with the latest slang and words used by the Gen-Z.
                         </Card.Text>
                         <Button variant="primary">Visit</Button>
                     </Card.Body>
@@ -43,4 +43,4 @@ function Projects() {
   );
 }
 
-export default Projects;
+export default Cards;

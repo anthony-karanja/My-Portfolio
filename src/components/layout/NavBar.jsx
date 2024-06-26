@@ -4,12 +4,13 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import { Link } from 'react-router-dom';
 
 function NavBar() {
   return (
     <Navbar expand="lg" bg="rgb(1, 1, 22)" data-bs-theme="dark" id='navbar' > 
       <Container fluid>
-        <Navbar.Brand href="#">
+        <Navbar.Brand as={Link} to="/">
            {/* <img src="/Wangui logo (2).png" alt="" /> */}
           <img src="/Wangui logo.png" alt="" />
         </Navbar.Brand>
@@ -20,9 +21,9 @@ function NavBar() {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link href="#action1">About me</Nav.Link>
-            <Nav.Link href="#action2">Projects</Nav.Link>
-            <Nav.Link href="#">Resume</Nav.Link>
+            <Nav.Link as={Link} to="/aboutme" >About me</Nav.Link>
+            <Nav.Link as={Link} to="/projects">Projects</Nav.Link>
+            <Nav.Link as={Link} to="/resume">Resume</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

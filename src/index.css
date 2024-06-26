@@ -25,6 +25,13 @@ body {
     max-width: 100%;
   }
 }
+/* Styling for the About me section  */
+#aboutme {
+  font-family: "Barlow", sans-serif;
+  color: rgb(218, 215, 215);
+  margin: 40px;
+  background-color: rgb(9, 9, 20);
+}
 /* Styling for Hero section  */
 #hero {
   display: flex;
@@ -32,6 +39,7 @@ body {
   /* font-weight: 600;
   font-size: 40px; */
   color: rgb(218, 215, 215);
+  position: relative;
 }
 #hero img {
   /* margin-top: 20px; */
@@ -39,7 +47,6 @@ body {
   height: 700px;
   /* border-radius: 50%; */
   object-fit: cover;
-  /* background-color: red; */
 }
 .tagline {
   margin-left: 40px;
@@ -112,29 +119,45 @@ body {
   position: absolute;
   top: 236px;
   right: 278px;
-  z-index: 2;
+  z-index: 1;
+  border-radius: 50%;
 }
 .behance:hover {
   scale: 1.2;
-  
+  background-color: azure;
 }
 .dribble {
   position: absolute;
   top: 332px;
   right: 152px;
   z-index: 1;
+  border-radius: 50%;
+}
+.dribble:hover {
+  scale: 1.2;
+  background-color: azure;
 }
 .github {
   position: absolute;
   top: 460px;
   right: 110px;
   z-index: 11;
+  border-radius: 50%;
+}
+.github:hover {
+  scale: 1.2;
+  background-color: azure;
 }
 .linkedin {
   position: absolute;
   top: 599px;
   right: 140px;
   z-index: 11;
+  border-radius: 50%;
+}
+.linkedin:hover {
+  scale: 1.2;
+  background-color: azure;
 }
 /* Styling for Project section  */
 #projectsSection {
@@ -191,6 +214,7 @@ body {
   font-family: "Barlow", sans-serif;
   background-color: rgb(1, 1, 22);
   padding: 40px 0px;
+  height: 250px;
 }
 #footer h3 {
   text-align: center;
@@ -199,7 +223,15 @@ body {
 .footerIcons {
   display: flex;
   justify-content: center;
- gap: 8px;
+  gap: 12px;
+}
+.footerIcon {
+  border-radius: 50%;
+  transition: transform 0.3s;
+}
+.footerIcon:hover {
+  scale: 1.2;
+  background-color: azure;
 }
 
 /* Styling for Resume page */
