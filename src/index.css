@@ -27,26 +27,26 @@ body {
 }
 /* Styling for the About me section  */
 #aboutme {
+  position: relative;
+}
+#aboutme img {
+  opacity: 0.2;
+  width: auto;
+  overflow: hidden;
+}
+.aboutmeText {
   font-family: "Barlow", sans-serif;
   color: rgb(218, 215, 215);
-  margin: 40px;
-  background-color: rgb(9, 9, 20);
+  padding: 60px;
+  position: absolute;
+  top: 250px;
 }
 /* Styling for Hero section  */
 #hero {
   display: flex;
   font-family: "Barlow", sans-serif;
-  /* font-weight: 600;
-  font-size: 40px; */
   color: rgb(218, 215, 215);
-  position: relative;
-}
-#hero img {
-  /* margin-top: 20px; */
-  width: 700px;
-  height: 700px;
-  /* border-radius: 50%; */
-  object-fit: cover;
+  /* position: relative; */
 }
 .tagline {
   margin-left: 40px;
@@ -71,10 +71,26 @@ body {
   top: 88px;
   right: 24px;
 }
-.circles {
+.heroImages {
   position: relative;
 }
-.circle {
+.profileImage {
+  width: 700px;
+  height: 700px;
+  /* margin-top: 40px; */
+  /* border-radius: 50%; */
+  object-fit: cover;
+  /* position: relative; */
+  
+}
+.circles {
+  position: absolute;
+  top: 40px;
+  right: -64px;
+  z-index: -1;
+}
+
+/* .circle {
   width: 600px;
   height: 600px;
   border: 0.5px solid gray;
@@ -82,7 +98,6 @@ body {
   border-radius: 50%;
   position: absolute;
   top: 80px;
-  /* top: 224px; */
   right: -140px;
   z-index: -1;
 }
@@ -94,7 +109,6 @@ body {
   border-radius: 50%;
   position: absolute;
   top: 128px;
-  /* top: 300px; */
   right: -80px;
   z-index: -1;
 }
@@ -107,9 +121,9 @@ body {
   position: absolute;
   top: 180px;
   right: -36px;
-  /* right: 180px; */
   z-index: -1;
-}
+} */
+
 /* Styling for the icons in the hero section */
 /* .icons {
   position: relative;
@@ -117,9 +131,9 @@ body {
 } */
 .behance {
   position: absolute;
-  top: 236px;
-  right: 278px;
-  z-index: 1;
+  top: 76px;
+  right: 120px;
+  z-index: 1000;
   border-radius: 50%;
 }
 .behance:hover {
@@ -128,8 +142,8 @@ body {
 }
 .dribble {
   position: absolute;
-  top: 332px;
-  right: 152px;
+  top: 166px;
+  right: 8px;
   z-index: 1;
   border-radius: 50%;
 }
@@ -139,8 +153,8 @@ body {
 }
 .github {
   position: absolute;
-  top: 460px;
-  right: 110px;
+  top: 280px;
+  right: -40px;
   z-index: 11;
   border-radius: 50%;
 }
@@ -150,8 +164,8 @@ body {
 }
 .linkedin {
   position: absolute;
-  top: 599px;
-  right: 140px;
+  bottom: 208px;
+  right: -12px;
   z-index: 11;
   border-radius: 50%;
 }
@@ -186,11 +200,14 @@ body {
   border-radius: 12px;
 }
 /* Styling for Services section  */
+.serviceImage {
+  opacity: 0.2;
+  position: relative;
+  width: 100%;
+}
 #services {
   font-family: "Barlow", sans-serif;
-  background-color: rgb(16, 16, 22);
-  padding: 40px 0px;
-  /* background-color: #343a40; */
+  position: relative;
 }
 #services h2 {
   font-family: "Barlow", sans-serif;
@@ -198,11 +215,36 @@ body {
   padding-top: 44px;
   text-align: center;
   color: beige;
+  position: absolute;
+  top: 40px;
+  left: 44%;
+}
+#myServices {
+  display: flex;
+  gap: 40px;
+  /* justify-content: space-around; */
+  position: absolute;
+  left: 24%;
+  top: 280px;
+}
+.dev {
+  background-color: rgb(13, 13, 14);
+  color: grey;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 12px;
 }
 .codeIcon {
   margin: 0px 0px 24px 0px;
   position: relative;
   left: 36%;
+}
+.design {
+  background-color: rgb(13, 13, 14);
+  color: grey;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 12px;
 }
 .designIcon {
   margin: 0px 0px 24px 0px;
@@ -221,9 +263,10 @@ body {
   color: beige;
 }
 .footerIcons {
+  margin-top: 60px;
   display: flex;
   justify-content: center;
-  gap: 12px;
+  gap: 20px;
 }
 .footerIcon {
   border-radius: 50%;

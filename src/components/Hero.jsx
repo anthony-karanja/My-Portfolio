@@ -18,29 +18,30 @@ function Hero() {
               <path d="M1.42197,15.29568C4.55526,10.57094,7.68855,5.8462,10.82185,1.12147l-1.17793,.15179c4.05423,3.68551,8.10846,7.37101,12.16269,11.05652,.71295,.64811,1.77681-.40964,1.06066-1.06066C18.81303,7.58361,14.7588,3.8981,10.70457,.2126c-.37148-.3377-.90297-.26283-1.17793,.15179C6.39335,5.08912,3.26006,9.81386,.12677,14.5386c-.53503,.80679,.76352,1.55882,1.29521,.75708h0Z" fill="#ffffff"/>
             </svg>
           </div>
-          <div className='circles'>
-            <img src="/Images/DP-removebg-preview.png" alt="My profile" /> 
-            {/* <img src="/Images/Biggerprofile-copy.png" alt="My profile" /> */}
-            <span className='circle'></span>
-            <span className='circle1'>
-              {/* <div className='icons'>
-                <img src="/Behance icon (1).png" alt="behance" className='behance' />
-                <img src="/Dribble icon (1).png" alt="dribble" className='dribble' />
-                <img src="/Github icon (1).png" alt="github" className='github' />
-                <img src="/Linkedin icon (1).png" alt="linkedin" className='linkedin' />
-              </div> */}
-            </span>
-            <span className='circle2'></span>
+          <div className='heroImages'>
+            <img src="/Images/Hero-image.png" alt="My profile" className='profileImage' /> 
+            <img src="/Circles.png" alt="circles" className='circles' />
+            {/* I removed a div that had all these icons */}
+            <a href="https://www.behance.net/wanguinjoroge" target="_blank"><img src="/Behance icon (1).png" alt="behance" className='behance' /></a>
+            <a href="https://dribbble.com/Wangoi" target="_blank"><img src="/Dribble icon (1).png" alt="dribble" className='dribble' /></a>
+            <a href="https://github.com/R-Wangui" target="_blank"><img src="/Github icon (1).png" alt="github" className='github' /></a>
+            <a href="https://www.linkedin.com/in/wangui-njoroge-639378181/" target="_blank"><img src="/Linkedin icon (1).png" alt="linkedin" className='linkedin' /></a>
           </div>
-        </div>
-        <div className='icons'>
-          <img src="/Behance icon (1).png" alt="behance" className='behance' />
-          <img src="/Dribble icon (1).png" alt="dribble" className='dribble' />
-          <img src="/Github icon (1).png" alt="github" className='github' />
-          <img src="/Linkedin icon (1).png" alt="linkedin" className='linkedin' />
         </div>
     </>
   )
 }
 
 export default Hero
+
+
+{/* <span className='circle'></span> */}
+            // <span className='circle1'>
+            //   {/* <div className='icons'>
+            //     <img src="/Behance icon (1).png" alt="behance" className='behance' />
+            //     <img src="/Dribble icon (1).png" alt="dribble" className='dribble' />
+            //     <img src="/Github icon (1).png" alt="github" className='github' />
+            //     <img src="/Linkedin icon (1).png" alt="linkedin" className='linkedin' />
+            //   </div> */}
+            // </span>
+            // <span className='circle2'></span>
