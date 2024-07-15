@@ -1,6 +1,7 @@
 import React from 'react'
 import NavBar from '../components/layout/NavBar'
 import Footer from '../components/layout/Footer'
+import '../components/styles/AboutMe.css'
 
 function AboutMe() {
   return (

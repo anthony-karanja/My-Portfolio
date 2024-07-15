@@ -1,0 +1,83 @@
+/* Styling for Services section  */
+.serviceImage {
+    opacity: 0.2;
+    position: relative;
+    width: 100%;
+  }
+  #services {
+    font-family: "Barlow", sans-serif;
+    position: relative;
+  }
+  #services h2 {
+    font-family: "Barlow", sans-serif;
+    font-size: 44px;
+    padding-top: 44px;
+    text-align: center;
+    color: beige;
+    position: absolute;
+    top: 40px;
+    left: 44%;
+  }
+  #myServices {
+    display: flex;
+    gap: 40px;
+    /* justify-content: space-around; */
+    position: absolute;
+    left: 24%;
+    top: 280px;
+  }
+  .dev {
+    background-color: rgb(13, 13, 14);
+    color: grey;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 12px;
+  }
+  .codeIcon {
+    margin: 0px 0px 24px 0px;
+    position: relative;
+    left: 36%;
+  }
+  .design {
+    background-color: rgb(13, 13, 14);
+    color: grey;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 12px;
+  }
+  .designIcon {
+    margin: 0px 0px 24px 0px;
+    position: relative;
+    left: 36%;
+  }
+  @media only screen and (max-width: 400px) {
+    #services {
+      font-family: "Barlow", sans-serif;
+      /* position: relative; */
+    }
+    .serviceImage {
+      opacity: 0.2;
+      /* position: relative; */
+      width: 100%;
+      display: none;
+    }
+    #services h2 {
+      font-family: "Barlow", sans-serif;
+      font-size: 44px;
+      padding-top: 44px;
+      text-align: center;
+      color: beige;
+      /* position: absolute;
+      top: 40px;
+      left: 44%; */
+    }
+    #myServices {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+      /* justify-content: space-around; */
+      /* position: absolute;
+      left: 24%;
+      top: 280px; */
+    }
+  }

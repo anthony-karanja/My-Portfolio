@@ -1,0 +1,47 @@
+/* Styling for Project section  */
+#projectsSection {
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    background-color: rgb(9, 9, 20);
+    /* background-color: rgb(37, 37, 37); */
+  }
+  #projectsSection h2 {
+    font-size: 44px;
+    padding-top: 44px;
+    text-align: center;
+    color: beige;
+    /* background-color: red; */
+  }
+  #projects {
+    display: flex;
+    justify-content: space-around;
+    /* font-size: 4px; */
+  }
+  .project1 {
+    background-color: rgb(13, 13, 14);
+    color: grey;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 12px;
+  }
+  @media only screen and (max-width: 400px) {
+    #projectsSection {
+      font-family: "Barlow", sans-serif;
+      font-weight: 400;
+      background-color: rgb(9, 9, 20);
+      /* background-color: rgb(37, 37, 37); */
+    }
+    #projects {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      /* font-size: 4px; */
+    }
+    .project1 {
+      background-color: rgb(13, 13, 14);
+      color: grey;
+      margin: 20px;
+      padding: 20px;
+      border-radius: 12px;
+    }
+  }

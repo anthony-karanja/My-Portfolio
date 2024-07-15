@@ -1,5 +1,6 @@
 import React from 'react'
 import Button from 'react-bootstrap/Button';
+import '../components/styles/HeroStyles.css'
 import Resume from '../assets/Resume-Wangui.pdf';
 
 
