@@ -90,9 +90,11 @@
   @media only screen and (max-width: 400px) {
     #hero {
       display: flex;
-      flex-direction: column;
+      flex-direction: column-reverse;
+      justify-content: flex-start;
       font-family: "Barlow", sans-serif;
       color: rgb(218, 215, 215);
+      margin-top: 40px;
       /* position: relative; */
       /* background-color: red; */
     }
@@ -106,23 +108,74 @@
     }
     .underline {
       position: absolute;
-      left: 280px;
+      left: 180px;
     }
     .tagline h4 {
       margin-top: 20px;
     }
-    .profileImage {
-      width: 400px;
-      height: 400px;
-      object-fit: cover;
-      /* z-index: 1; */
-      position: relative;
+    #heroButton {
+      margin: 40px 0px 80px 80px;
+      font-size: 16px;
       
     }
+    .curledArrow {
+      position: relative;
+      bottom: 20px;
+      right: 24px;
+      background-color: red;
+    }
+    .profileImage {
+      width: 280px;
+      height: 280px;
+      object-fit: cover;
+      position: relative;
+    }
     .circles {
+      width: 240px;
+      height: 240px;
       position: absolute;
       top: 40px;
-      right: -64px;
+      left: 54px;
       z-index: -1;
+    }
+    .behance {
+      position: absolute;
+      top: 56px;
+      right: 138px;
+      z-index: 1;
+      border-radius: 50%;
+      background-color: rgb(1, 1, 22);
+    }
+    .dribble {
+      position: absolute;
+      top: 86px;
+      right: 102px;
+      z-index: 1;
+      border-radius: 50%;
+      background-color: rgb(1, 1, 22);
+    }
+    .github {
+      position: absolute;
+      top: 130px;
+      right: 88px;
+      z-index: 11;
+      border-radius: 50%;
+      background-color: rgb(1, 1, 22);
+    }
+    .linkedin {
+      position: absolute;
+      bottom: 68px;
+      right: 92px;
+      z-index: 11;
+      border-radius: 50%;
+      background-color: rgb(1, 1, 22);
+    }
+    .behance, .dribble, .github, .linkedin {
+      width: 32px;
+      height: 32px;
+    }
+    .behance:hover, .dribble:hover, .github:hover, .linkedin:hover {
+      scale: 1.2;
+      background-color: azure;
     }
   }

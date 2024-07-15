@@ -11,7 +11,9 @@ function Projects() {
         <div id='projectsSection'>
             <h2>Projects I have Done</h2>
             <div id='projects'>
-                <Card style={{ width: '24rem' }} className='project1'>
+                <Card 
+                // style={{ width: '24rem' }} 
+                className='project1'>
                     <Card.Img variant="top" src="/Images/8.jpg" />
                     <Card.Body>
                         <Card.Title>Local Dish Corner</Card.Title>
@@ -21,7 +23,9 @@ function Projects() {
                         <Button variant="primary">Visit</Button>
                     </Card.Body>
                 </Card>
-                <Card style={{ width: '24rem' }} className='project1'>
+                <Card 
+                // style={{ width: '24rem' }} 
+                className='project1'>
                     <Card.Img variant="top" src="/Images/8.jpg" />
                     <Card.Body>
                         <Card.Title>KeepTabs</Card.Title>
@@ -31,7 +35,9 @@ function Projects() {
                         <Button variant="primary">Visit</Button>
                     </Card.Body>
                 </Card>
-                <Card style={{ width: '24rem' }} className='project1'>
+                <Card 
+                // style={{ width: '24rem' }} 
+                className='project1'>
                     <Card.Img variant="top" src="/Images/8.jpg" />
                     <Card.Body>
                         <Card.Title>Gen-Z Dictionary</Card.Title>
