@@ -1,5 +1,4 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import React from 'react'
 import Projects from './pages/Projects'
 import Resume from './pages/Resume';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';

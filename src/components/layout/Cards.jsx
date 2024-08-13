@@ -16,7 +16,7 @@ function Cards() {
                         <Card.Text>
                             Providing a marketing solution to increase visibility for local food vendors to their customers.
                         </Card.Text>
-                        <Button variant="primary">Visit</Button>
+                        <Button href='https://localdishcorner.netlify.app/' variant="primary">Visit</Button>
                     </Card.Body>
                 </Card>
                 <Card 

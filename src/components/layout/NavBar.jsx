@@ -1,18 +1,16 @@
-import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
-import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Link } from 'react-router-dom';
+import  { Logo } from '/Wangui logo.png'
 
 function NavBar() {
   return (
     <Navbar expand="lg" bg="rgb(1, 1, 22)" data-bs-theme="dark" id='navbar' > 
       <Container fluid>
         <Navbar.Brand as={Link} to="/">
-           {/* <img src="/Wangui logo (2).png" alt="" /> */}
-          <img src="/Wangui logo.png" alt="" />
+          {/* <img src="/Wangui logo.png" alt="" /> */}
+          <img src={Logo} alt="my logo" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
