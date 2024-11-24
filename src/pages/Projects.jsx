@@ -5,52 +5,42 @@ import Footer from '../components/layout/Footer';
 import '../components/styles/Projects.css'
 
 function Projects() {
+    const Projects = [
+        {
+          name: "Job Portal",
+          description: "Built with Django for job applications.",
+          technologies: ["DjangoRest", "Python"],
+          githubLink: "https://github.com/anthony-karanja",
+        },
+      ];
   return (
-    <>
-        <NavBar />
-        <div id='projectsSection'>
-            <h2>Projects I have Done</h2>
-            <div id='projects'>
-                <Card 
-                // style={{ width: '24rem' }} 
-                className='project1'>
-                    <Card.Img variant="top" src="/Images/8.jpg" />
-                    <Card.Body>
-                        <Card.Title>Local Dish Corner</Card.Title>
-                        <Card.Text>
-                            Providing a marketing solution to increase visibility for local food vendors to their customers.
-                        </Card.Text>
-                        <Button variant="primary">Visit</Button>
-                    </Card.Body>
-                </Card>
-                <Card 
-                // style={{ width: '24rem' }} 
-                className='project1'>
-                    <Card.Img variant="top" src="/Images/8.jpg" />
-                    <Card.Body>
-                        <Card.Title>KeepTabs</Card.Title>
-                        <Card.Text>
-                            An application that helps users track their time efficiently and improve their productivity.
-                        </Card.Text>
-                        <Button variant="primary">Visit</Button>
-                    </Card.Body>
-                </Card>
-                <Card 
-                // style={{ width: '24rem' }} 
-                className='project1'>
-                    <Card.Img variant="top" src="/Images/8.jpg" />
-                    <Card.Body>
-                        <Card.Title>Gen-Z Dictionary</Card.Title>
-                        <Card.Text>
-                            An application with the latest slang and words used by the Gen-Z.
-                        </Card.Text>
-                        <Button variant="primary">Visit</Button>
-                    </Card.Body>
-                </Card>
-            </div>
+    <>   
+    <NavBar />
+    <div id='projectsSection'>
+        <h2>Projects I have Done</h2>
+        <div className="grid-container">
+            {Projects.map((project, index) => (
+                <div key={index} className="project-card">
+                    <h3 className="project-title">{project.name}</h3>
+                    <p className="project-description">{project.description}</p>
+                    <p className="project-technologies">Technologies: {project.technologies.join(", ")}</p>
+                    <a
+                        href={project.githubLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="project-link"
+                    >
+                        View on GitHub
+                    </a>
+                </div>
+            ))}
         </div>
-        <Footer />
+    </div>
+    <Footer />
     </>
+               
+       
+   
   );
 }
 

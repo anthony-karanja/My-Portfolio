@@ -2,7 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link } from 'react-router-dom';
-import  { Logo } from '/Wangui logo.png'
+// import  { Logo } from '/Wangui logo.png'
 
 function NavBar() {
   return (
@@ -10,7 +10,7 @@ function NavBar() {
       <Container fluid>
         <Navbar.Brand as={Link} to="/">
           {/* <img src="/Wangui logo.png" alt="" /> */}
-          <img src={Logo} alt="my logo" />
+          {/* <img src={Logo} alt="my logo" /> */}
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">

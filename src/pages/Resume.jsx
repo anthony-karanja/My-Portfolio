@@ -5,7 +5,7 @@ import NavBar from '../components/layout/NavBar';
 import Footer from '../components/layout/Footer';
 
 function Resume() {
-  const pdfFile = 'src/assets/Resume-Wangui.pdf';
+  const pdfFile = 'src/assets/Resume-Tony.pdf';
   return (
     <>
       <NavBar />
