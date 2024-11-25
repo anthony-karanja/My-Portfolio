@@ -1,5 +1,4 @@
 import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
 import NavBar from '../components/layout/NavBar';
 import Footer from '../components/layout/Footer';
 import '../components/styles/Projects.css'
